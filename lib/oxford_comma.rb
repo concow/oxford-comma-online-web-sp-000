@@ -19,5 +19,5 @@ def oxford_comma(array)
   elsif 2 < array.length
     array[-1].insert(0, "and ")               #set last element to include 'and'. #insert method inserts given value with given index.
   end
-  array.join(", ")
+  array.join(", ")                            #if array length is 2 or more add a comma
 end
